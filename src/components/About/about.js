@@ -16,7 +16,7 @@ const About = () => {
         </p>
     <div style="width: 200px;
             height: 200px;
-            background-color: black;
+            background-color: grey;
             border-radius: 50%; > </div>
     </section>
   )
