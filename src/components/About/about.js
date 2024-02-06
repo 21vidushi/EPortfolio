@@ -14,6 +14,7 @@ const About = () => {
 
         <span>4. </span>I am excited about the opportunities that lie ahead in my exploration of the web development domain and look forward to leveraging my skills to make meaningful contributions to future projects.
         </p>
+    <div className="col"> </div>
     </section>
   )
 }
