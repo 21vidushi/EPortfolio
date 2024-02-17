@@ -14,10 +14,6 @@ const About = () => {
 
         <span>4. </span>I am excited about the opportunities that lie ahead in my exploration of the web development domain and look forward to leveraging my skills to make meaningful contributions to future projects.
         </p>
-    <div style="width: 200px;
-            height: 200px;
-            background-color: grey;
-            border-radius: 50%; > </div>
     </section>
   )
 }

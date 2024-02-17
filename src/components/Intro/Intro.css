@@ -57,10 +57,17 @@
 
 @media screen and (max-width:840px){
     .bg{
-        right: -10vw;
+        border-radius: 0;
+       width:inherit;
+       height: inherit;
+       align-items: center;
+       margin-right: -70px;
+       /* max-width: 10rem; */
+       z-index: -6;
+       opacity: 0.1;
     }
     .introContent{
-        font-size: 10vw;
+        font-size: 50px;
     }
     .hello{
         font-size: 4.5vw;
@@ -73,6 +80,12 @@
        /* max-width: 10rem; */
        z-index: -6;
        opacity: 0.1;
+    }
+    .introContent{
+        font-size: 1.2rem;
+    }
+    .hello{
+        font-size: 4.5vw;
     }
     
 }

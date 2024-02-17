@@ -62,7 +62,7 @@
     top: 4rem;
     right: 2rem;
     z-index: 2;
-    /* display: flex; */
+    display: none; 
     flex-direction: column;
     padding: 0.5rem;
     height: fit-content;
@@ -77,20 +77,14 @@
    background: rgb(30,30,30);
 
 }
-@media screen and(max-width:720px){
-    .mobMenu{
-        display: flex;
-    }
-    .desktopMenu{
-        display: none;
-    }
-    .desktopMenuListItem{
-        display: none;
-    }
-    .desktopMenuBtn{
-        display: none;
-    }
-    .navMenu{
-        display: flex;
-    }
-};
+@media screen and (min-width: 100px) and (max-width: 646px) {
+   .desktopMenu{
+    display: none;
+   }
+   .desktopMenuBtn{
+    display: none;
+   }
+   .mobMenu{
+    display: block;
+   }
+  }
