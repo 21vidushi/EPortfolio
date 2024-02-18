@@ -1,0 +1,72 @@
+#educations{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.educationTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem ;
+    margin-bottom: 1.5rem;
+    color: #FFECD1;
+}
+.eduBars{
+   margin: 1.5rem;
+   width: 100vw;
+   max-width: 80%;
+   text-align: left;
+
+}
+.eduBar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #FFECD1;
+    color: black;
+   
+}
+
+.edup{
+    word-wrap: break-word;
+}
+.pro{
+    color: black;
+}
+
+@media screen and (max-width: 484px) {
+    /* CSS styles specific to screens with a maximum width of 768px */
+
+    .eduBar{
+        border-top: 1px solid yellow;
+        border-radius: 10px;
+        background: #FFECD1;
+    color: black;
+
+    }
+    .edup{
+        
+       text-align: center;
+       width: 50vh;
+    }
+    .eduBars{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size:small;
+     
+    }
+}
+
+
+    
+    
+
